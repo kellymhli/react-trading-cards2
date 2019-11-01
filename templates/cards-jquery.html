@@ -19,7 +19,7 @@
 
 {% block js %}
   <script>
-    const getCardData() {
+    function getCardData() {
       // Get the up to date card data from DB.
 
       $.get('/cards.json', insertCardData);
